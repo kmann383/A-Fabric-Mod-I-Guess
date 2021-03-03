@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "epic",
   "version": "${version}",
 
   "name": "Example Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "the one the only CoolGuy 100!"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://kmann383.github.io",
+    "sources": "https://github.com/kmann383/A-Fabric-Mod-I-Guess"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "cc-by-4.0",
+  "icon": "assets/epic/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "usa.kbsun.epicmod.EpicMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
